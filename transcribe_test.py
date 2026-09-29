@@ -5,14 +5,20 @@ import librosa
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 
 
-MODEL_NAME = "facebook/wav2vec2-base-960h"
+# Phoneme-recognition model using eSpeak phoneme labels.
+MODEL_NAME = "facebook/wav2vec2-lv-60-espeak-cv-ft"
 
 
 def load_model():
-    print("Loading Wav2Vec2 model...")
+    print("Loading Wav2Vec2 phoneme model...")
 
-    processor = Wav2Vec2Processor.from_pretrained(MODEL_NAME)
-    model = Wav2Vec2ForCTC.from_pretrained(MODEL_NAME)
+    processor = Wav2Vec2Processor.from_pretrained(
+        MODEL_NAME
+    )
+
+    model = Wav2Vec2ForCTC.from_pretrained(
+        MODEL_NAME
+    )
 
     model.eval()
 
@@ -21,7 +27,50 @@ def load_model():
     return processor, model
 
 
-def transcribe(audio_path, processor, model):
+def collapse_ctc_ids(token_ids, blank_id):
+    """
+    Collapse a greedy CTC path:
+    - remove repeated consecutive tokens
+    - remove blank tokens
+
+    Example:
+        [0, 38, 38, 0, 17, 17, 18]
+        -> [38, 17, 18]
+    """
+
+    collapsed = []
+    previous = None
+
+    for token_id in token_ids:
+
+        if token_id == blank_id:
+            previous = token_id
+            continue
+
+        if token_id != previous:
+            collapsed.append(token_id)
+
+        previous = token_id
+
+    return collapsed
+
+
+def token_ids_to_phonemes(
+    token_ids,
+    processor
+):
+    """Convert model token IDs into readable phoneme symbols."""
+
+    return processor.tokenizer.convert_ids_to_tokens(
+        token_ids
+    )
+
+
+def transcribe(
+    audio_path,
+    processor,
+    model
+):
     print("Loading audio...")
 
     audio, sample_rate = librosa.load(
@@ -29,9 +78,14 @@ def transcribe(audio_path, processor, model):
         sr=16000,
         mono=True
     )
+
     print("Audio samples:", len(audio))
     print("Max amplitude:", max(abs(audio)))
-    print("Audio duration:", len(audio) / 16000, "seconds")
+    print(
+        "Audio duration:",
+        len(audio) / 16000,
+        "seconds"
+    )
 
     inputs = processor(
         audio,
@@ -40,34 +94,67 @@ def transcribe(audio_path, processor, model):
     )
 
     with torch.no_grad():
-        logits = model(inputs.input_values).logits
+        logits = model(
+            inputs.input_values
+        ).logits
 
-    predicted_ids = torch.argmax(logits, dim=-1)
+    # Greedy CTC decoding.
+    predicted_ids = torch.argmax(
+        logits,
+        dim=-1
+    )[0].tolist()
 
-    transcription = processor.batch_decode(
-        predicted_ids
-    )[0]
+    blank_id = processor.tokenizer.pad_token_id
 
-    return transcription
+    # Collapse the CTC path into phoneme tokens.
+    decoded_ids = collapse_ctc_ids(
+        predicted_ids,
+        blank_id
+    )
+
+    phonemes = token_ids_to_phonemes(
+        decoded_ids,
+        processor
+    )
+
+    phoneme_text = " ".join(
+        phonemes
+    )
+
+    return (
+        phoneme_text,
+        logits,
+        decoded_ids
+    )
 
 
-# This part only runs when you directly execute:
-# python transcribe_test.py Test.wav
+# --------------------------------------------------
+# Standalone test
+# --------------------------------------------------
+
 if __name__ == "__main__":
 
     if len(sys.argv) != 2:
-        print("Usage: python transcribe_test.py path/to/audio.wav")
+        print(
+            "Usage: python transcribe_test.py path/to/audio.wav"
+        )
         sys.exit(1)
 
     audio_path = sys.argv[1]
 
     processor, model = load_model()
 
-    text = transcribe(
+    phonemes, logits, decoded_ids = transcribe(
         audio_path,
         processor,
         model
     )
 
-    print("\nTranscript:")
-    print(text)
+    print("\nPhonemes:")
+    print(phonemes)
+
+    print("\nDecoded IDs:")
+    print(decoded_ids)
+
+    print("\nLogits shape:")
+    print(logits.shape)

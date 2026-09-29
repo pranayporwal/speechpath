@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — One SH",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "ship",
+            "shop",
+            "shed",
+            "shin",
+            "shun",
+            "sham"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "shout",
+            "shoe",
+            "sheep",
+            "shell",
+            "shift",
+            "shine"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "shade",
+            "shape",
+            "shake",
+            "shame",
+            "share",
+            "shave"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "shore",
+            "short",
+            "shirt",
+            "shark",
+            "sharp",
+            "shrug"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "fish",
+            "dish",
+            "wish",
+            "wash",
+            "rush",
+            "push"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "hush",
+            "bush",
+            "brush",
+            "blush",
+            "crush",
+            "flush"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "dash",
+            "cash",
+            "mash",
+            "lash",
+            "bash",
+            "crash"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "flash",
+            "slash",
+            "splash",
+            "smash",
+            "trash",
+            "fresh"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "flesh",
+            "mesh",
+            "leash",
+            "marsh",
+            "harsh",
+            "plush"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "shriek",
+            "shrink",
+            "shrimp",
+            "shred",
+            "shrewd",
+            "shrill"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Two Syllables — Two SH",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "shipshape",
+            "shoeshine",
+            "shoeshop",
+            "shapeshift",
+            "shushes",
+            "shushing"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "shoe shop",
+            "shoe shine",
+            "shoe shelf",
+            "ship shop",
+            "ship shed",
+            "ship shape"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "she shops",
+            "she shares",
+            "she shines",
+            "she shakes",
+            "she shapes",
+            "she shoots"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "she shaves",
+            "she shouts",
+            "she shifts",
+            "she shuts",
+            "she sheds",
+            "she shrugs"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "shy sheep",
+            "shy shoes",
+            "shy shark",
+            "shy shell",
+            "shy shop",
+            "shy shirt"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "fresh fish",
+            "fresh shell",
+            "fresh shoe",
+            "fresh sheet",
+            "fresh sheep",
+            "fresh shop"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "fish shop",
+            "fish shed",
+            "fish shell",
+            "fish shoe",
+            "fish shape",
+            "fish share"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "cash shop",
+            "cash sheet",
+            "cash shoe",
+            "cash shell",
+            "cash shape",
+            "cash share"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "brush shop",
+            "brush shelf",
+            "brush sheet",
+            "flash shop",
+            "flash sheet",
+            "flash shape"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "crash shield",
+            "crash shape",
+            "smash shell",
+            "smash shop",
+            "trash shell",
+            "trash shop"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Three Syllables — Three SH",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "she shops shoes",
+            "she shares shells",
+            "she shines shoes",
+            "she shakes sheets",
+            "she shows shoes",
+            "she shapes shells"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "shall she shop",
+            "shall she share",
+            "shall she shine",
+            "shall she shout",
+            "shall she shake",
+            "shall she shape"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "should she shop",
+            "should she share",
+            "should she shine",
+            "should she shout",
+            "should she shake",
+            "should she shape"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "shy sheep shine",
+            "shy sheep shout",
+            "shy sheep shift",
+            "shy sheep shed",
+            "shy sheep share",
+            "shy sheep shrink"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "shy shark shops",
+            "shy shark shines",
+            "shy shark shouts",
+            "shy shark shifts",
+            "shy shark shakes",
+            "shy shark shapes"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "fresh fish shop",
+            "fresh fish shed",
+            "fresh fish shell",
+            "fresh fish shine",
+            "fresh fish shakes",
+            "fresh fish shares"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "fish shop shines",
+            "fish shop shuts",
+            "fish shop shakes",
+            "fish shop shouts",
+            "fish shop shares",
+            "fish shop shifts"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "cash shop shines",
+            "cash shop shuts",
+            "cash shop shakes",
+            "cash shop shouts",
+            "cash shop shares",
+            "cash shop shifts"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "brush shop shines",
+            "brush shop shuts",
+            "flash shop shines",
+            "flash shop shuts",
+            "crash shop shines",
+            "smash shop shuts"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "she shares fish",
+            "she shakes shoes",
+            "she shapes sheep",
+            "she shops fresh",
+            "she shoots shells",
+            "she shreds sheets"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short SH Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "She shops for shoes.",
+            "She shines her shoes.",
+            "The shy sheep shakes.",
+            "She shares fresh fish.",
+            "The sheep is shy.",
+            "She shapes the shell."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "She shops for shiny shoes.",
+            "She shares a fresh fish.",
+            "The shy sheep shakes the sheet.",
+            "She shines the shoes each day.",
+            "The shop sells soft shoes.",
+            "She shakes the small shell."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The shy sheep shops for shoes.",
+            "She shares fresh fish with us.",
+            "She shines her shoes before school.",
+            "The shark splashes near the shore.",
+            "She shapes a shell from clay.",
+            "The shopkeeper shows six shoes."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "The shy sheep shakes beside the shop.",
+            "She shares shiny shoes with her sister.",
+            "The shark splashes near the shallow shore.",
+            "She shops for fresh fish on Sunday.",
+            "The chef serves fresh fish with a dish.",
+            "She slowly shapes the shell by hand."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "The shy sheep shares a small shed with another sheep.",
+            "She shines her shoes before she shops at the market.",
+            "The shark splashes through the shallow water near the shore.",
+            "She chooses fresh fish and places it on a dish.",
+            "The chef shows the fresh fish before serving the dish.",
+            "She carefully shapes the shell while she watches."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The shy sheep shakes the sheet beside the small shop.",
+            "She shares shiny shoes while she shops with her friend.",
+            "The shark splashes through the shallow water near the rocky shore.",
+            "She chooses fresh fish, then washes the dish before dinner.",
+            "The chef shows the fresh fish and serves it with a side dish.",
+            "She shapes the shell slowly so the edges stay smooth."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The shy sheep shakes the sheet while she shops for shoes.",
+            "She shares fresh fish with the chef after she washes the dish.",
+            "The shark splashes through shallow water while the swimmers rush to shore.",
+            "She shines her shoes before she walks through the crowded shopping street.",
+            "The chef carefully shows the fresh fish before placing it on the dish.",
+            "She shapes the shell with a small brush while she watches the surface."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "The shy sheep shakes the sheet as she shops for shiny shoes at the shop.",
+            "She shares fresh fish with the chef, then washes every dish before she leaves.",
+            "The shark splashes through the shallow water while the frightened fish rush toward shore.",
+            "She shines her shoes and checks each shiny surface before she steps outside.",
+            "The chef shows the fresh fish, shapes the dish, and serves it while we watch.",
+            "She carefully shapes the shell so its sharp edges stay smooth and even."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The shy sheep shakes the sheet while she shops for six shiny shoes at the shop.",
+            "She shares fresh fish with the chef, washes the dishes, and places the shells on the shelf.",
+            "The shark splashes through the shallow water as frightened fish rush toward the rocky shore.",
+            "She shines her shoes before she walks through the busy shopping street after school.",
+            "The chef shows the fresh fish, checks each dish, and serves the meal while guests watch.",
+            "She carefully shapes the shell with a sharp tool while she watches the edges."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "The shy sheep shakes the sheet while she shops for six shiny shoes at the crowded shop.",
+            "She shares fresh fish with the chef, washes the dishes, and places the clean shells carefully on the shelf.",
+            "The shark splashes through the shallow water as frightened fish rush toward the rocky shore while swimmers shout.",
+            "She shines her shoes before she walks through the busy shopping street, checking each shiny surface as she goes.",
+            "The chef shows the fresh fish, shapes each dish, and serves the meal while the guests watch closely.",
+            "She carefully shapes the shell with a sharp tool, then brushes away the small pieces and checks the finish."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "SH Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Shy sheep shop for shoes.",
+            "She shines shiny shoes.",
+            "Fresh fish splash.",
+            "Shy sharks shout.",
+            "She shops, she shines.",
+            "Small shells shine."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "She shops for shiny shoes.",
+            "Shy sheep shake sheets.",
+            "Fresh fish splash ashore.",
+            "Shiny shoes shine brightly.",
+            "Shy sharks share shells.",
+            "She shifts shiny shoes."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Shy sheep shop for fresh shoes.",
+            "She shines six shiny shells.",
+            "Fresh fish splash by the shore.",
+            "Shy sharks chase shiny shells.",
+            "She shares fresh fish dishes.",
+            "Shops shine with shiny shoes."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Shy sheep shuffle past shiny shoes.",
+            "She shops for six fresh fish.",
+            "Shiny shells shine beside the shore.",
+            "Fresh fish splash in shallow water.",
+            "Shy sharks share short shells.",
+            "She shakes shiny shoes on shelves."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "She shows six shiny shoes.",
+            "Shy sheep share fresh fish dishes.",
+            "Fresh fish splash beside shallow shores.",
+            "Shy sharks shuffle through shiny shells.",
+            "She shops for short shiny shirts.",
+            "Shiny shoes shake on the shelf."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Shy sheep shuffle, shake, and share shiny shoes.",
+            "Fresh fish splash through shallow shore water.",
+            "She shops for six short shiny shirts.",
+            "Shy sharks shift shiny shells toward shore.",
+            "She shines fresh shoes while she shops.",
+            "Small shiny shells shine beside fresh fish."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Shy sheep shuffle swiftly past shiny shoe shops.",
+            "Fresh fish splash through shallow shore shallows.",
+            "She shares six shiny shells with shy sheep.",
+            "Shy sharks shift fresh shells toward shore.",
+            "She shops for short shirts, shiny shoes, and shells.",
+            "Shiny shoes shine while shy shoppers shuffle."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Shy sheep shuffle through six shiny shoe shops.",
+            "Fresh fish splash sharply through shallow shore water.",
+            "She shares shiny shells while shy sharks circle the shore.",
+            "Shy shoppers shuffle past shelves of shiny shoes.",
+            "She chooses fresh fish, shiny shoes, and short shirts.",
+            "Shiny shells shift from the shore to the shop."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Shy sheep swiftly shuffle six shiny shoes toward the shore.",
+            "Fresh fish splash through shallow channels as shy sharks shift nearby.",
+            "She shops for shiny shirts while six shy shoppers share shells.",
+            "Shiny shoes, shiny shells, and fresh fish fill the small shop.",
+            "Shy sharks circle the shore while fresh fish splash and sheep shuffle.",
+            "She carefully shifts six shiny shells from the shop shelf to the shore."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Shy sheep swiftly shuffle through six shiny shoe shops while shoppers shout.",
+            "Fresh fish splash through shallow shore channels as shy sharks shift shiny shells.",
+            "She shops for six short shiny shirts while six shy shoppers share fresh fish dishes.",
+            "Shiny shoes shine on the shelves while shy sheep shuffle past the crowded shop.",
+            "Shy sharks circle the shore as fresh fish splash, shells shift, and shoppers shout.",
+            "She swiftly shifts six shiny shells, six fresh fish dishes, and six short shirts from shop to shelf."
+          ]
+        }
+      ]
+    }
+  ]
+}
