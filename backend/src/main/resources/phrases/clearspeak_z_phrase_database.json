@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — Clear Z",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "zoo",
+            "zip",
+            "zap",
+            "zest",
+            "zone",
+            "zoom"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "zinc",
+            "zeal",
+            "zed",
+            "zits",
+            "zaps",
+            "zen"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "buzz",
+            "fizz",
+            "fuzz",
+            "jazz",
+            "quiz",
+            "whiz"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "maze",
+            "gaze",
+            "daze",
+            "haze",
+            "days",
+            "ways"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "nose",
+            "rose",
+            "toes",
+            "wise",
+            "size",
+            "prize"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "freeze",
+            "breeze",
+            "sneeze",
+            "cheese",
+            "please",
+            "choose"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "bees",
+            "keys",
+            "peas",
+            "fees",
+            "trees",
+            "seas"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "rise",
+            "clues",
+            "noise",
+            "boys",
+            "toys",
+            "cows"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "is",
+            "his",
+            "was",
+            "these",
+            "those",
+            "as"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "has",
+            "does",
+            "sees",
+            "goes",
+            "says",
+            "gives"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Two-Syllable Z Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "zero",
+            "zipper",
+            "zebra",
+            "zesty",
+            "zigzag",
+            "zither"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "crazy",
+            "lazy",
+            "dizzy",
+            "cozy",
+            "fuzzy",
+            "noisy"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "music",
+            "cousin",
+            "reason",
+            "design",
+            "result",
+            "reside"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "wizard",
+            "lizard",
+            "blizzard",
+            "puzzle",
+            "dozen",
+            "hazard"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "amazing",
+            "breezy",
+            "easy",
+            "rosy",
+            "busy",
+            "frozen"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "zebra crossing",
+            "zipper jacket",
+            "zero balance",
+            "lazy lizard",
+            "cozy bazaar",
+            "noisy music"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "fuzzy puzzle",
+            "crazy wizard",
+            "busy cousin",
+            "rosy garden",
+            "easy reason",
+            "frozen pizza"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "beside the zoo",
+            "near the zebra",
+            "around the maze",
+            "inside the zone",
+            "across the bazaar",
+            "under the gazebo"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "musical rhythm",
+            "organized visit",
+            "pleasant surprise",
+            "business result",
+            "prize winner",
+            "amusing story"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "zigzag pattern",
+            "organized schedule",
+            "amazing visitor",
+            "colorful mosaic",
+            "dazzling lights",
+            "breezy evening"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Longer Z Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "magazine",
+            "amazing discovery",
+            "horizon",
+            "organize",
+            "recognize",
+            "memorize"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "visualize the result",
+            "organize the supplies",
+            "recognize the melody",
+            "memorize the reason",
+            "a surprising discovery",
+            "a colorful mosaic"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "a magazine article",
+            "a fascinating puzzle",
+            "an organized display",
+            "a surprising result",
+            "a memorable visit",
+            "a colorful zoo celebration"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "across the busy bazaar",
+            "beside the amazing waterfall",
+            "inside the music museum",
+            "around the zigzag pathway",
+            "near the science exhibit",
+            "under the wooden gazebo"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "visualization exercise",
+            "a realistic example",
+            "an amazing experience",
+            "a generous prize winner",
+            "a dazzling discovery",
+            "a carefully organized presentation"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "the buzzing insect",
+            "the dazzling display",
+            "a dozen roses",
+            "a frozen dessert",
+            "a musical performance",
+            "a pleasant surprise"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "organize the visitor list",
+            "memorize the safety message",
+            "recognize the buzzing sound",
+            "choose the correct size",
+            "place the prizes in rows",
+            "use the zipper carefully"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "the musician plays jazz",
+            "the visitor studies the mosaic",
+            "the children solve a puzzle",
+            "the organizer checks the schedule",
+            "the wizard tells a story",
+            "the cyclist crosses the busy zone"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "an unforgettable zoo visit",
+            "a carefully organized science display",
+            "an amazing musical performance",
+            "a dozen colorful paper roses",
+            "a surprising change in the weather",
+            "a useful message for every visitor"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "organize the equipment before the session",
+            "recognize the difference between the two sounds",
+            "choose a suitable size for the display",
+            "memorize the instructions and use them safely",
+            "place the prizes beside the correct names",
+            "review the results before finalizing the schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short Z Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Zara visits the zoo.",
+            "The zipper is stuck.",
+            "A bee buzzes near the rose.",
+            "These toys are easy to use.",
+            "The prize is beside the vase.",
+            "Please choose the blue size."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Zara organizes a visit to the zoo.",
+            "The zebra grazes beside the fence.",
+            "A dozen roses fill the vase.",
+            "The busy musician plays jazz.",
+            "The children solve a puzzling quiz.",
+            "A cool breeze passes through the gazebo."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The zookeeper shows the children a zebra.",
+            "Zara chooses a cozy seat beside the window.",
+            "The musician plays jazz as the visitors arrive.",
+            "A buzzing bee rests on a rose in the garden.",
+            "The science group organizes the samples by size.",
+            "The team celebrates the prize with a cheerful song."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Zara places the prizes beside the names on the list.",
+            "The zookeeper explains why zebras have different stripe patterns.",
+            "A dozen roses brighten the table near the window.",
+            "The busy shopkeeper organizes the sizes before opening the store.",
+            "The musician plays a jazzy tune while the visitors settle down.",
+            "Please use the zipper carefully so the fabric does not get caught."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "The students organize a science display with colorful mosaics.",
+            "A gentle breeze moves the roses beside the wooden gazebo.",
+            "Zara recognizes the melody and joins the music session.",
+            "The zookeeper answers questions about the zebra and the gazelle.",
+            "The quiz results are displayed beside each participant’s name.",
+            "The team chooses reusable materials for the festival decorations."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The organizer checks the schedule and reserves a space for every visitor.",
+            "Zara chooses a dozen roses and places them in a glass vase.",
+            "The children visit the zoo and observe the zebra from a safe distance.",
+            "A buzzing bee circles the flowers before settling on a rose.",
+            "The musician rehearses the jazz piece several times before the show.",
+            "The teacher explains the reason for each step in the puzzle."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The science team organizes its samples and labels each container by size.",
+            "Zara visits the music museum and listens to a dazzling jazz performance.",
+            "A dozen volunteers arrange the prizes beside the correct names.",
+            "The zookeeper gives the visitors a quiz about zebras and gazelles.",
+            "The colorful mosaic brightens the wall beside the garden entrance.",
+            "Please make sure the zipper is closed before using the bag."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Zara and her cousin organize a surprise celebration for the prize winners.",
+            "The students compare the sizes of the crystals and record the results carefully.",
+            "The zookeeper explains how zebras recognize members of their group.",
+            "A gentle breeze moves through the gazebo while the musicians rehearse jazz.",
+            "The visitor uses the map to find the science exhibit near the entrance.",
+            "The shop assistant places the correct sizes beside the labels before opening."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The organizer reviews the results, recognizes the strongest ideas, and finalizes the schedule.",
+            "Zara chooses reusable decorations and arranges the roses beside the colorful mosaic.",
+            "The visitors listen to the jazz musician before exploring the science exhibit.",
+            "The zookeeper answers questions about zebras while the children complete a short quiz.",
+            "A dozen volunteers organize the supplies and place each prize beside its winner.",
+            "The teacher reminds everyone to use the zipper carefully and keep personal items secure."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Before the festival begins, Zara and her cousin organize the prizes, roses, and colorful decorations.",
+            "The science team analyzes the results, recognizes unusual patterns, and prepares a clear summary for the visitors.",
+            "A dozen musicians rehearse a jazzy composition while the audience settles beside the stage.",
+            "The zookeeper explains the zebra’s stripes, answers questions, and quizzes the children on what they learned.",
+            "The shop assistant checks every size, closes each zipper carefully, and places the finished bags beside the display.",
+            "The volunteers use reusable materials to create a dazzling mosaic and organize the supplies for easy access."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Z Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Zara zips the zipper.",
+            "Zebras zigzag at the zoo.",
+            "Buzzing bees visit roses.",
+            "Choose the size, please.",
+            "Jazz plays as the breeze blows.",
+            "Zero zebras snooze."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Zara’s cousin visits the zoo.",
+            "Zigzag lines zig and zag.",
+            "Busy bees buzz beside roses.",
+            "A dozen prizes sit by the vase.",
+            "The jazz musician plays with ease.",
+            "Please zip the zipper before leaving."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Zara and Zoe zigzag through the zoo.",
+            "Busy bees buzz as the roses bloom.",
+            "The jazz band plays a breezy tune.",
+            "A dozen zebras graze beside the trees.",
+            "Please organize the prizes by size.",
+            "The wizard solves the puzzling quiz with ease."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Zara zips a zipper while Zoe organizes the bags.",
+            "Busy bees buzz beside the roses in the gazebo.",
+            "The jazz musician plays a lively tune for the visitors.",
+            "A dozen prizes are displayed beside the names on the list.",
+            "Zebras zigzag across the dusty field near the zoo.",
+            "Please choose reusable decorations for the festival."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Zara’s cousin Zoe organizes the colorful mosaic beside the gazebo.",
+            "A dozen buzzing bees visit the roses before the breeze rises.",
+            "The jazz band rehearses its newest piece while the visitors solve a quiz.",
+            "Zebras graze beside the trees as the zookeeper explains their habits.",
+            "Please check the size before zipping the jacket.",
+            "The organizer places each prize beside the correct name on the list."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Zara and Zoe organize a surprise for the prize winners.",
+            "Busy bees buzz around the roses beside the wooden gazebo.",
+            "The jazz musician practices the piece until every note sounds easy.",
+            "A dozen zebras graze lazily while the zookeeper answers the visitors.",
+            "Choose the correct size, close the zipper, and place the bag beside the desk.",
+            "The science class recognizes the pattern and records the result."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Zara’s cousin uses a map to find the music museum.",
+            "The zookeeper quizzes the children about zebras and gazelles.",
+            "A dozen colorful roses brighten the display beside the entrance.",
+            "Busy bees buzz as the breeze moves through the gazebo.",
+            "The jazz band surprises the visitors with a lively composition.",
+            "Please organize the supplies and label each box by size."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Zara, Zoe, and their cousin organize a dazzling zoo display.",
+            "A dozen zebras zigzag past the trees while the visitors watch.",
+            "Busy bees buzz around the roses as a gentle breeze rises.",
+            "The jazz musician plays with precision while the audience enjoys the show.",
+            "The organizer checks the results and places every prize beside its name.",
+            "Please zip the bags and use the correct size labels before leaving."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Zara and Zoe organize the prizes, roses, and reusable decorations before the festival.",
+            "The zookeeper explains zebra patterns while the children answer a quiz about the animals.",
+            "A dozen musicians rehearse jazz as a pleasant breeze moves through the gazebo.",
+            "Busy bees buzz beside the roses while visitors use the map to find the exhibit.",
+            "The science team recognizes an unusual pattern and summarizes the results for the visitors.",
+            "Please check each zipper, choose the correct size, and place the bags beside the display."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Zara and Zoe zigzag through the zoo, then organize a quiz about zebras for the visitors.",
+            "A dozen busy bees buzz beside the roses while a gentle breeze moves through the gazebo.",
+            "The jazz band rehearses a dazzling composition, and the audience recognizes the melody with ease.",
+            "The zookeeper explains the zebra’s stripes, answers questions, and helps the children summarize their observations.",
+            "The organizer checks the list, matches each prize to its winner, and places the gifts beside the stage.",
+            "Please choose reusable materials, label the supplies by size, and close every zipper before the display opens."
+          ]
+        }
+      ]
+    }
+  ]
+}

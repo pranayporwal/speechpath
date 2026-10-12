@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — Clear S",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "sun",
+            "sit",
+            "sock",
+            "soup",
+            "sad",
+            "seal"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "sea",
+            "sip",
+            "sack",
+            "seek",
+            "safe",
+            "sell"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "slam",
+            "slip",
+            "smell",
+            "smile",
+            "snow",
+            "snake"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "spot",
+            "spill",
+            "spin",
+            "skate",
+            "step",
+            "stone"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "bus",
+            "face",
+            "rice",
+            "kiss",
+            "dress",
+            "glass"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "mess",
+            "pass",
+            "loss",
+            "press",
+            "slice",
+            "choice"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "star",
+            "stop",
+            "stamp",
+            "spend",
+            "speak",
+            "speed"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "desk",
+            "task",
+            "crisp",
+            "twist",
+            "west",
+            "list"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "space",
+            "spice",
+            "score",
+            "scarf",
+            "screen",
+            "scrap"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "strong",
+            "street",
+            "splash",
+            "spring",
+            "scream",
+            "square"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Two-Syllable S Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "salad",
+            "sister",
+            "sunset",
+            "silver",
+            "silly",
+            "signal"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "sunny",
+            "simple",
+            "season",
+            "supper",
+            "sandy",
+            "sender"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "soccer",
+            "sailor",
+            "sleepy",
+            "sunrise",
+            "saucer",
+            "sudden"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "lesson",
+            "listen",
+            "pencil",
+            "castle",
+            "whistle",
+            "muscle"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "basket",
+            "costume",
+            "postcard",
+            "message",
+            "sunshine",
+            "sandwich"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "soft music",
+            "safe spaces",
+            "silver spoon",
+            "simple story",
+            "sunny season",
+            "small suitcase"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "six sisters",
+            "seven socks",
+            "sandy seaside",
+            "sunset scene",
+            "spicy sauce",
+            "seven sailors"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "across the street",
+            "beside the station",
+            "inside the suitcase",
+            "under the stars",
+            "along the seashore",
+            "past the school"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "crispy biscuits",
+            "freshly sliced cheese",
+            "special science lesson",
+            "careful assistant",
+            "pleasant surprise",
+            "successful session"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "sensible decision",
+            "seasonal service",
+            "satisfying success",
+            "serious seminar",
+            "sunny destination",
+            "spacious classroom"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Longer S Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "scientific",
+            "sensation",
+            "celebration",
+            "successful",
+            "sincerely",
+            "sensitive"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "sensible solution",
+            "special session",
+            "essential service",
+            "serious science session",
+            "solar system",
+            "simple sign"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "practice the sequence",
+            "study the system",
+            "save the seashore",
+            "select the safest route",
+            "discuss the results",
+            "organize the science display"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "across the countryside",
+            "beside the swimming pool",
+            "inside the science museum",
+            "under the silver staircase",
+            "around the seaside village",
+            "through the narrow passage"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "carefully selected samples",
+            "a successful science project",
+            "a sensible suggestion",
+            "a fascinating discovery",
+            "a spacious exhibition hall",
+            "a delicious sesame biscuit"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "science club members",
+            "seasonal vegetable garden",
+            "the school sports festival",
+            "a small seaside restaurant",
+            "a successful rescue mission",
+            "a peaceful sunset walk"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "speak slowly and clearly",
+            "set the plates on the table",
+            "sort the supplies by size",
+            "save the seats for guests",
+            "send the schedule this evening",
+            "study the subject before sunset"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "the scientist studies sea shells",
+            "the assistant checks every sample",
+            "the students solve the puzzle",
+            "the singers rehearse together",
+            "the cyclist crosses the street",
+            "the shopkeeper sells fresh spices"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "a sustainable transport system",
+            "an especially successful season",
+            "a collection of space photographs",
+            "a carefully organized science lesson",
+            "a peaceful village celebration",
+            "a surprisingly simple solution"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "select the smallest suitable container",
+            "send the completed schedule to the staff",
+            "discuss the results after the session",
+            "place the stainless-steel spoons beside the plates",
+            "study the science lesson and summarize the essential points",
+            "cross the street only after checking both sides"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short S Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Sam sees the sun.",
+            "Six socks sit in a basket.",
+            "Sue slices the soft cheese.",
+            "The school starts at nine.",
+            "A small snail crosses the step.",
+            "The bus stops beside the shop."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Sana sets six silver spoons on the table.",
+            "The students sit silently before the lesson starts.",
+            "A soft breeze sweeps across the seashore.",
+            "The science class studies seeds and soil.",
+            "The chef serves spicy soup with rice.",
+            "Please save a seat for the special guest."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The school science club studies stars and space.",
+            "Sonia places the clean glasses beside the sink.",
+            "Six small swans swim across the still lake.",
+            "The assistant sorts the samples into separate boxes.",
+            "A cyclist stops safely before crossing the street.",
+            "The shop sells fresh spices, sesame seeds, and soup."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "The students discuss the science assignment after school.",
+            "Sana carefully slices the vegetables for the salad.",
+            "A silver fish swims slowly beneath the surface.",
+            "The station staff guide visitors toward the correct exits.",
+            "The small seaside shop sells shells and souvenirs.",
+            "Please speak softly while the speaker shares the message."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "The science teacher sets a simple task for the class.",
+            "Six friends spend Saturday exploring the seaside.",
+            "The assistant checks the schedule and sends a summary.",
+            "A sudden storm sends the swimmers back to shore.",
+            "The shopkeeper displays fresh spices in small glass jars.",
+            "The school celebrates success with music and snacks."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The students assemble the science model using simple supplies.",
+            "Sonia studies the sunset while sitting beside the sea.",
+            "A careful cyclist signals before crossing the busy street.",
+            "The class listens as the scientist explains the sample results.",
+            "The restaurant serves steamed vegetables with sesame sauce.",
+            "The staff place the special passes inside labeled envelopes."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The science group saves samples for a second analysis.",
+            "Sana shares the schedule with the staff before the session.",
+            "The school garden has spinach, squash, lettuce, and sweet peas.",
+            "A small squirrel scampers across the stone steps.",
+            "The sports team practices passing skills before the season starts.",
+            "Please send the signed forms to the office this afternoon."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "The students prepare a short presentation about the solar system.",
+            "Sonia serves soup while Sam sets the plates on the table.",
+            "The science museum displays fossils, stones, and space photographs.",
+            "The assistant carefully checks each sample before recording the results.",
+            "A steady stream of visitors passes through the spacious exhibition hall.",
+            "The school sports committee schedules sessions so every team gets practice time."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The science students compare the samples and summarize the results clearly.",
+            "Sana sends the seating plan to the staff before the school celebration.",
+            "The cycling group follows the safest route beside the river and through the village.",
+            "The shopkeeper sets aside fresh sesame biscuits for the special guests.",
+            "The research assistant stores sensitive documents in a secure cabinet.",
+            "The school celebrates its success with songs, speeches, sports, and shared refreshments."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Before the science session starts, the students arrange their samples in separate labeled spaces.",
+            "The school secretary checks the schedule, sends the updates, and saves a copy for the staff.",
+            "Six cyclists travel together, signal at each crossing, and stop safely beside the station.",
+            "The restaurant serves spicy soup, sliced vegetables, steamed rice, and sesame sauce to the guests.",
+            "The scientist summarizes the results, discusses the uncertainties, and suggests a second set of tests.",
+            "Sana speaks slowly and clearly so the students can understand every step of the safety instructions."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "S Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Six small socks stay safe.",
+            "Sam sells soft sesame snacks.",
+            "Sue sees seven silver stars.",
+            "Small snakes slide slowly.",
+            "Silly seals sing softly.",
+            "Stay steady, speak slowly."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Six students solve simple sums.",
+            "Sana serves soup with sesame seeds.",
+            "Seven swans swim south at sunset.",
+            "Soft sand slips through Sam’s fingers.",
+            "Sam’s sister sells silver spoons.",
+            "Small stars shine over the seaside."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Seven sleepy seals sit beside the seashore.",
+            "Sana slices six sweet strawberries for supper.",
+            "Small snakes slide silently past the stone steps.",
+            "Six science students share samples and summarize results.",
+            "Sam sees a silver star just above the station.",
+            "Soft summer sunshine settles over the silent streets."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Six silly sisters sing songs beside the sea.",
+            "Sana sets small saucers beside the silver spoons.",
+            "Seven swift swans sweep across the still stream.",
+            "The science students sort samples into six separate sets.",
+            "Soft sand sticks to Sam’s shoes after sunset.",
+            "Small silver stars sparkle across the summer sky."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Sensible students study science slowly and steadily.",
+            "Seven small squirrels search the school steps for seeds.",
+            "Sana serves sesame snacks while Sam sets the seats.",
+            "Six sailors see the sunset from the silent seaside.",
+            "Soft snow settles on the stone steps outside the station.",
+            "The soccer squad practices passing skills before the season starts."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Six students stack sample boxes beside the science station.",
+            "Sana slowly stirs sesame sauce in a stainless-steel saucepan.",
+            "Seven silver swans swim swiftly across the still surface.",
+            "Sam’s sister sells small sandals beside the seaside store.",
+            "Scientists study the sky and discuss the stars they see.",
+            "Soft summer sounds drift across the spacious school garden."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Sana and Sam sort six sets of science samples before sunset.",
+            "Seven sleepy seals slide silently across the smooth seaside sand.",
+            "The school soccer squad practices short sprints and steady steps.",
+            "Six silver spoons sit safely beside the stainless-steel saucepan.",
+            "Small stars seem to sparkle as the sun slips below the sea.",
+            "Sensible students speak slowly so every sentence sounds clear."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Six science students study the stars, sketch the shapes, and share the results.",
+            "Sana serves spicy sesame soup as Sam sets the silver spoons on the table.",
+            "Seven swans swim steadily south while the sunset spreads across the sea.",
+            "The school secretary sends the schedule, saves a copy, and signs the summary.",
+            "Soft sand slips from the sandals as the visitors stroll beside the seashore.",
+            "Small squirrels scamper across the stone steps, searching for seeds and scraps."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Sensible Sam studies science, summarizes samples, and shares suggestions with the class.",
+            "Six sailors steer the ship safely south as the sun sets beyond the sea.",
+            "Sana carefully slices strawberries, seasons the salad, and serves a special supper.",
+            "Seven silver stars shimmer above the station while the sleepy city settles down.",
+            "The students separate the samples, label the sections, and store the supplies securely.",
+            "Soft summer sunshine spreads across the school steps as the soccer squad starts practice."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Six skilled students carefully select samples, study the statistics, and summarize the science session.",
+            "Sana serves sesame snacks while Sam sets six silver spoons beside the stainless-steel soup bowls.",
+            "Seven swift swans sweep south across the stream as the sunset softly colors the sky.",
+            "The school secretary sends the schedule, saves the signed forms, and shares the summary with the staff.",
+            "Small squirrels search the stone steps for seeds while sleepy seals settle beside the seaside.",
+            "Scientists study the samples, discuss the uncertainties, and suggest several sensible tests for the next session."
+          ]
+        }
+      ]
+    }
+  ]
+}

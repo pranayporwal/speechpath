@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — Clear R",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "red",
+            "rag",
+            "run",
+            "ram",
+            "rip",
+            "rub"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "rod",
+            "rug",
+            "rock",
+            "rain",
+            "road",
+            "room"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "ray",
+            "reef",
+            "ring",
+            "rope",
+            "roar",
+            "rude"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "crab",
+            "drum",
+            "grin",
+            "frog",
+            "grass",
+            "press"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "bread",
+            "brick",
+            "broom",
+            "brush",
+            "brave",
+            "brown"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "car",
+            "far",
+            "bar",
+            "jar",
+            "scar",
+            "star"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "bird",
+            "burn",
+            "turn",
+            "shirt",
+            "short",
+            "storm"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "train",
+            "trail",
+            "tree",
+            "try",
+            "true",
+            "trip"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "cross",
+            "crown",
+            "craft",
+            "fresh",
+            "frost",
+            "burst"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "price",
+            "prize",
+            "prime",
+            "prank",
+            "print",
+            "proud"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Two-Syllable R Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "rabbit",
+            "rocket",
+            "river",
+            "ruler",
+            "robot",
+            "rainbow"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "runner",
+            "rooster",
+            "ribbon",
+            "racket",
+            "rapid",
+            "rescue"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "carrot",
+            "barrel",
+            "parrot",
+            "forest",
+            "parent",
+            "garden"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "purple",
+            "perfect",
+            "person",
+            "purpose",
+            "circle",
+            "curtain"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "market",
+            "morning",
+            "mirror",
+            "marble",
+            "mercy",
+            "merit"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "bright room",
+            "brown rabbit",
+            "red ribbon",
+            "rapid river",
+            "rough road",
+            "right turn"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "green grass",
+            "crisp bread",
+            "brave driver",
+            "fresh cream",
+            "frozen fruit",
+            "great prize"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "around town",
+            "across the road",
+            "under a bridge",
+            "near the river",
+            "over the roof",
+            "beside the tree"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "racing runner",
+            "rolling rover",
+            "resting rider",
+            "roaring river",
+            "rusty tractor",
+            "round mirror"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "rare flower",
+            "rural village",
+            "regular order",
+            "early arrival",
+            "careful repair",
+            "friendly stranger"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Longer R Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "remember",
+            "recovery",
+            "recreation",
+            "direction",
+            "celebrate",
+            "adventure"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "colorful river",
+            "wonderful story",
+            "careful driver",
+            "curious rabbit",
+            "bright orange",
+            "return tomorrow"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "brilliant performer",
+            "remember the route",
+            "repair the roof",
+            "prepare the report",
+            "arrange the chairs",
+            "compare the prices"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "around the corner",
+            "across the railway",
+            "beside the riverbank",
+            "through the forest",
+            "under the bridge",
+            "beyond the orchard"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "regular exercise",
+            "original artwork",
+            "terrific result",
+            "generous reward",
+            "important discovery",
+            "wonderful surprise"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "river rescue team",
+            "railway repair crew",
+            "rural research project",
+            "bright red lantern",
+            "carefully wrapped present",
+            "freshly prepared dinner"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "remember every detail",
+            "return the borrowed ruler",
+            "repair the broken mirror",
+            "rehearse the opening scene",
+            "prepare a report early",
+            "arrange a room for reading"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "a roaring waterfall",
+            "a crowded railway station",
+            "a cheerful radio host",
+            "a rare red parrot",
+            "a carefully drawn portrait",
+            "a remarkable recovery"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "the river rises slowly",
+            "the farmer repairs the tractor",
+            "the artist restores the frame",
+            "the drummer rehearses regularly",
+            "the runner reaches the bridge",
+            "the traveler follows the trail"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "read the road signs carefully",
+            "remember where the red folder rests",
+            "return before the storm arrives",
+            "report the result to the group",
+            "repair the railing near the stairs",
+            "prepare the room for rehearsal"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short R Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Rita reads a red book.",
+            "Raj runs around the park.",
+            "The rabbit rests near the rock.",
+            "A train crosses the bridge.",
+            "The driver turns right at the road.",
+            "Fresh bread rests beside the fruit."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "The farmer grows carrots near the river.",
+            "Ravi carries a green umbrella.",
+            "The brown horse trots across the field.",
+            "A bright star appears after dark.",
+            "The children rehearse a short story.",
+            "Please return the ruler to the drawer."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The gardener trims the grass around the roses.",
+            "The train arrives at the railway station early.",
+            "A curious squirrel runs across the garden wall.",
+            "The driver repairs the broken rear mirror.",
+            "Our group prepared a report about the river.",
+            "The red kite circles above the cricket ground."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Rohan reads clearly while the room stays quiet.",
+            "The workers repair the road before the rain starts.",
+            "A brave firefighter carries the child to safety.",
+            "The artist draws a portrait near the window.",
+            "The river curves around the green hills.",
+            "The restaurant serves warm bread with fresh herbs."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "The reporter records the results before the meeting.",
+            "A brown sparrow rests on the garden railing.",
+            "The careful driver slows down near the crowded crossing.",
+            "Riya brings three ripe pears for everyone.",
+            "The orchestra rehearses regularly for the Friday program.",
+            "The traveler checks the route before leaving the railway station."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The trainer reminds every runner to warm up properly.",
+            "The farmer stores fresh carrots in a wooden crate.",
+            "A strong breeze carries the leaves across the courtyard.",
+            "The repair crew works carefully around the traffic barrier.",
+            "The children share stories beside the roaring stream.",
+            "The library offers readers a quiet corner near the rear windows."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The bright red banner hangs across the entrance road.",
+            "Ravi and Rhea prepare refreshments for the visitors.",
+            "The teacher reads the story slowly and clearly.",
+            "A small green parrot perches near the garden gate.",
+            "The driver follows the route around the reservoir.",
+            "The group gathers early to rehearse the opening performance."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "The researcher records every result before reviewing the report.",
+            "The crowded market grows quieter after the rain passes.",
+            "A careful gardener removes weeds around the rose bushes.",
+            "The railway workers replace the damaged track near the bridge.",
+            "The younger players practice their serves before the tournament.",
+            "The restaurant owner arranges fresh bread, fruit, and herbs on the counter."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The rescue crew reaches the riverbank before the storm grows stronger.",
+            "Rhea checks the register and returns the borrowed reference books.",
+            "The traveler carries a reusable bottle during the long journey.",
+            "The director reviews every scene before the rehearsal begins.",
+            "The volunteers prepare warm meals for the crowded shelter.",
+            "The farmer repairs the irrigation pipe along the southern border."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Before the performance, the director reminds every performer to project clearly.",
+            "The research group compares the river readings and records the results carefully.",
+            "Ravi crosses the courtyard, returns the key, and stores the papers in the drawer.",
+            "The repair crew rebuilds the railing after the strong storm damages the road.",
+            "The experienced driver checks the mirrors and follows the marked route through the crowded center.",
+            "Rita prepares a short report describing the project, its progress, and the required repairs."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "R Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Rory rolls a round red rock.",
+            "Rare red roses rise near the road.",
+            "Rita runs rapidly around the rink.",
+            "Three proud crabs crawl across the grass.",
+            "Bright brown birds bring berries.",
+            "Rob runs a race in the rain."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Rory the runner races around the river.",
+            "Red robots roll round rugs rapidly.",
+            "Brave brown bears roam rocky ridges.",
+            "Rita repairs Rory’s rusty red rover.",
+            "Fresh fruit rolls from the trolley.",
+            "Three trainers trade racing tips."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Rory rarely rests while racing around the track.",
+            "Red roses grow around the rural railway.",
+            "Brave river rescuers row through rough water.",
+            "Rita reads rare stories to restless readers.",
+            "The green tractor rattles across the rough road.",
+            "Three drummers rehearse rapid rhythms together."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Round and round the red train rolls.",
+            "Rory’s rare red parrot repeats Rory’s words.",
+            "Bright stars sparkle over the river road.",
+            "Fresh bread, ripe pears, and rare berries are ready.",
+            "Rita’s brother brings brown crackers for the group.",
+            "The restless runner races past three railway bridges."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Rory repairs red racing cars near the river.",
+            "Three proud riders race through the rainy road.",
+            "Rare parrots chatter around the green garden.",
+            "The reliable reporter records every rough rehearsal.",
+            "Rita rolls the red ribbon around the wrapped present.",
+            "Brave rescuers return from the stormy river."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Rory’s brother brings bright red berries for breakfast.",
+            "The rapid river rushes around rugged rocks.",
+            "Three railway workers repair the rails before sunrise.",
+            "Rita rehearses her report, then reads it clearly.",
+            "The brown rabbit races around the garden and rests.",
+            "Fresh rosemary and ripe cherries flavor the roast."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Rare red roses grow beside Rory’s rural railway.",
+            "Brave brown bears rarely bother resting birds.",
+            "Three drummers drum rapidly while the trumpeter rehearses.",
+            "Rita’s brother repairs the broken rear mirror carefully.",
+            "The river rescue crew returns before the storm arrives.",
+            "Rory reads road rules aloud before every race."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Rory and Rita race their red bicycles around the reservoir.",
+            "The rural railway reporter records regular repairs near the river.",
+            "Three brave firefighters carry the injured runner across the road.",
+            "Fresh berries, ripe pears, and roasted carrots are ready for dinner.",
+            "The proud cricket player practices running between the markers.",
+            "Bright stars appear over the bridge as the river grows darker."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Before sunrise, Rory’s racing team runs around the rugged reservoir road.",
+            "Rita carefully records the results and reports every error to the supervisor.",
+            "Three bright red kites circle over the river while the breeze grows stronger.",
+            "The restaurant prepares warm bread, roasted carrots, and rosemary for the travelers.",
+            "Brave rescuers cross the rough bridge and return with the stranded hikers.",
+            "Rory rehearses the story repeatedly until every word sounds clear and natural."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Rory’s rare red racing rover rattles rapidly around the rugged racecourse.",
+            "Three river rescuers row through rough currents, reach the shore, and return safely.",
+            "Rita records railway repairs, reviews the report, and reads the results to the crew.",
+            "Bright brown birds bring berries to the garden while restless squirrels race across the railing.",
+            "The experienced driver checks every mirror, follows the marked route, and reaches the crowded station before the rain.",
+            "Round red ribbons, green cards, and bright silver stars decorate the room for the Friday celebration."
+          ]
+        }
+      ]
+    }
+  ]
+}

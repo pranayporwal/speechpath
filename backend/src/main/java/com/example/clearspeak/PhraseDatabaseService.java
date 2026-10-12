@@ -11,7 +11,12 @@ import java.util.Map;
 public class PhraseDatabaseService {
 
     private static final Map<String, String> PHRASE_FILES = Map.of(
-            "sh", "phrases/clearspeak_sh_phrase_database.json"
+            "sh", "phrases/clearspeak_sh_phrase_database.json",
+            "r",  "phrases/clearspeak_r_phrase_database.json",
+            "l",  "phrases/clearspeak_l_phrase_database.json",
+            "th", "phrases/clearspeak_th_phrase_database.json",
+            "s",  "phrases/clearspeak_s_phrase_database.json",
+            "z",  "phrases/clearspeak_z_phrase_database.json"
     );
 
     private final Map<String, PhraseDatabase> databases;

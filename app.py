@@ -6,6 +6,7 @@ import soundfile as sf
 import torch
 import google.generativeai as genai
 
+from google.generativeai.types import RequestOptions
 from Levenshtein import editops
 from pronunciation_scorer_v1 import calculate_score
 
@@ -645,6 +646,7 @@ def combine_score(
 # Gemini feedback
 # --------------------------------------------------
 
+
 def generate_feedback(
     transcript,
     expected_phrase,
@@ -652,9 +654,29 @@ def generate_feedback(
     phoneme_breakdown
 ):
 
-    if gemini_model is None:
+    def fallback_feedback():
 
-        return "Keep practicing that phrase!"
+        if score >= 80:
+            return (
+                "Good job! You reached the practice "
+                "target. Keep practising to improve further."
+            )
+
+        elif score >= 60:
+            return (
+                "Good try! Slow down, focus on the "
+                "target sound, and try again."
+            )
+
+        else:
+            return (
+                "Keep practising! Listen to the example, "
+                "say the phrase slowly, and try again."
+            )
+
+    # Gemini unavailable or not configured.
+    if gemini_model is None:
+        return fallback_feedback()
 
     low_confidence = [
         item
@@ -667,55 +689,49 @@ def generate_feedback(
     ]
 
     prompt = f"""
-The user was asked to say:
-"{expected_phrase}"
+You are a supportive pronunciation coach.
 
-The model transcribed their speech as:
-"{transcript}"
-
-Their overall pronunciation score is:
-{score}/100.
+Expected phrase: "{expected_phrase}"
+Recognized speech: "{transcript}"
+Pronunciation score: {score}/100
 
 Phoneme-level analysis:
 {low_confidence}
 
-Give one short encouraging corrective tip
-focused on the lowest-confidence or clearly
-incorrect sound.
+Give one or two short, encouraging sentences
+with a useful corrective tip based on the
+weakest supported phoneme-level evidence.
 
-Mention the specific sound when useful.
-Be supportive and simple.
+Be specific when the analysis supports it.
+Do not invent pronunciation errors.
 Do not diagnose anything.
 """
 
     try:
-
-        print(
-            "Sending request to Gemini..."
-        )
+        print("Sending request to Gemini...")
 
         response = gemini_model.generate_content(
-            prompt
+            prompt,
+            request_options=RequestOptions(
+                timeout=8,
+                retry=None
+            )
         )
 
-        print(
-            "Gemini response received."
-        )
+        feedback = response.text
 
-        if response.text:
+        if feedback and feedback.strip():
+            print("Gemini response received.")
+            return feedback.strip()
 
-            return response.text.strip()
-
-        return "Keep practicing that phrase!"
+        print("Gemini returned an empty response.")
 
     except Exception as e:
+        print("Gemini feedback error:", repr(e))
 
-        print(
-            "Gemini feedback error:",
-            e
-        )
-
-        return "Keep practicing that phrase!"
+    # Any Gemini error or empty response:
+    # return local feedback instead.
+    return fallback_feedback()
 
 
 # --------------------------------------------------

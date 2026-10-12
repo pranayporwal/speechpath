@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — Clear L",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "lamp",
+            "leg",
+            "lip",
+            "lot",
+            "log",
+            "lid"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "lake",
+            "leaf",
+            "line",
+            "loaf",
+            "luck",
+            "long"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "clap",
+            "club",
+            "flag",
+            "flame",
+            "flat",
+            "fleet"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "black",
+            "blend",
+            "blink",
+            "block",
+            "bloom",
+            "blast"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "milk",
+            "silk",
+            "belt",
+            "cold",
+            "felt",
+            "help"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "ball",
+            "bell",
+            "bill",
+            "bowl",
+            "bull",
+            "pool"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "light",
+            "late",
+            "land",
+            "last",
+            "lost",
+            "list"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "clean",
+            "climb",
+            "clock",
+            "cloud",
+            "close",
+            "class"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "shelf",
+            "skill",
+            "sleep",
+            "slip",
+            "slow",
+            "slice"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "curl",
+            "girl",
+            "pearl",
+            "twirl",
+            "skull",
+            "world"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Two-Syllable L Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "lemon",
+            "lucky",
+            "label",
+            "ladder",
+            "little",
+            "lesson"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "lily",
+            "local",
+            "lonely",
+            "lovely",
+            "lively",
+            "limit"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "yellow",
+            "pilot",
+            "salad",
+            "melon",
+            "wallet",
+            "sailor"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "pillow",
+            "balloon",
+            "below",
+            "follow",
+            "allow",
+            "silent"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "plastic",
+            "blanket",
+            "clinic",
+            "planet",
+            "closet",
+            "village"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "blue lamp",
+            "little lake",
+            "silver bell",
+            "yellow bowl",
+            "clean plate",
+            "golden leaf"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "slow learner",
+            "local library",
+            "polite caller",
+            "lovely sunset",
+            "little ladder",
+            "level floor"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "along the lane",
+            "below the ledge",
+            "beside the lake",
+            "under the light",
+            "inside the hall",
+            "near the school"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "glass bottle",
+            "black velvet",
+            "small village",
+            "blue blanket",
+            "fresh salad",
+            "silver necklace"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "careful listener",
+            "helpful classmate",
+            "colorful lantern",
+            "playful puppy",
+            "beautiful island",
+            "delightful holiday"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Longer L Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "elephant",
+            "telephone",
+            "delicate",
+            "celebrate",
+            "melody",
+            "volleyball"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "colorful tulips",
+            "little yellow balloons",
+            "a lovely melody",
+            "delicious lemon jelly",
+            "a reliable bicycle",
+            "a cheerful storyteller"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "collect the labels",
+            "deliver the yellow flowers",
+            "polish the silver plate",
+            "follow the yellow line",
+            "learn a little slowly",
+            "build a colorful display"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "along the coastal village",
+            "below the library window",
+            "beside the blue waterfall",
+            "inside the classroom",
+            "across the level field",
+            "around the little island"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "wonderful storyteller",
+            "valuable collection",
+            "colorful celebration",
+            "unusually helpful",
+            "beautiful landscape",
+            "carefully folded blanket"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "a lively little library",
+            "a long yellow ladder",
+            "a playful golden retriever",
+            "a delicate glass bottle",
+            "a colorful holiday display",
+            "a helpful local volunteer"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "listen carefully to the lesson",
+            "collect the leaves in a basket",
+            "polish the table before lunch",
+            "follow the blue line along the wall",
+            "label every bottle clearly",
+            "learn the melody before the recital"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "the village celebrates together",
+            "the bicycle rolls slowly downhill",
+            "the little child learns to balance",
+            "the local artist paints a landscape",
+            "the balloon floats above the lawn",
+            "the class prepares a colorful display"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "a delightful family holiday",
+            "a valuable library collection",
+            "a colorful musical performance",
+            "a carefully balanced ladder",
+            "a peaceful lakeside village",
+            "a beautiful flowering plant"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "leave the clean plates on the table",
+            "label the folders before filing them",
+            "listen to the melody one more time",
+            "follow the trail along the lake",
+            "collect the fallen leaves after lunch",
+            "place the blue blanket beside the yellow pillow"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short L Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Lena likes lemon cake.",
+            "The lamp is beside the bed.",
+            "A little lamb rests on the lawn.",
+            "Please close the blue folder.",
+            "The glass is full of milk.",
+            "The children play near the lake."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Laila collects leaves in a small basket.",
+            "The yellow balloon floats above the lawn.",
+            "Oliver places the plate beside the bowl.",
+            "The library closes a little later today.",
+            "A gentle breeze moves the colorful flags.",
+            "The class learns a lovely song together."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The local library lends books to every student.",
+            "Lily places the clean glasses along the shelf.",
+            "A little lizard lies under the flat stone.",
+            "The volleyball rolls slowly across the playground.",
+            "The tailor folds the blue cloth carefully.",
+            "The family enjoys a peaceful walk along the lake."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "The children line up quietly beside the classroom wall.",
+            "A yellow butterfly lands on a flower near the lake.",
+            "The librarian labels each book before placing it on the shelf.",
+            "Please leave the clean glass bottle on the table.",
+            "The playful puppy follows the little boy around the lawn.",
+            "Our class collects colorful leaves for the school display."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Lalita carefully cleans the glass table before lunch.",
+            "The village hall looks lovely after the colorful lights are hung.",
+            "A helpful librarian explains how to locate the reference books.",
+            "The balloon slowly floats along the blue evening sky.",
+            "The class listens closely while the violinist plays a gentle melody.",
+            "A little child learns to balance while riding a bicycle."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The local volunteers plant lilies along the library walkway.",
+            "Lena fills the blue bowl with sliced melon and lemon.",
+            "The school bell rings while the children leave the hall.",
+            "A colorful mural fills the long wall beside the playground.",
+            "The family travels slowly along the lake during the holiday.",
+            "Please place all the labels beside the correct bottles."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The florist carefully arranges yellow lilies in a glass vase.",
+            "The children collect fallen leaves and place them in labeled bags.",
+            "A lively melody fills the hall as the local band begins to play.",
+            "The small village library welcomes learners throughout the week.",
+            "Laila slowly follows the trail that leads along the hill.",
+            "The class builds a colorful model of the solar system."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "The helpful volunteer explains the rules before the library closes.",
+            "The little girl learns to play the flute by practicing daily.",
+            "A clean blue blanket lies folded beside the yellow pillow.",
+            "The family enjoys fresh salad while sitting under the old olive tree.",
+            "The school displays colorful paintings along the central hallway.",
+            "Please label the glass bottles before placing them on the shelf."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The local cycling club follows a clearly marked trail beside the lake.",
+            "Lena carefully balances the glass bowl while walking across the room.",
+            "The children build a small village model with colorful blocks and little trees.",
+            "The librarian helps each learner find a suitable book for the lesson.",
+            "A gentle melody plays while the guests slowly fill the hall.",
+            "The florist delivers yellow lilies and lovely roses to the hotel."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Before the festival, the volunteers place colorful lights along the village hall.",
+            "The library team labels every shelf so learners can locate books easily.",
+            "Lalita slowly learns the melody and plays it clearly at the school recital.",
+            "The family follows the coastal trail, stopping to look at shells along the shoreline.",
+            "The little puppy curls beside the fireplace while the children read aloud.",
+            "The school celebrates the annual festival with lively music, colorful flags, and delicious lemon cake."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "L Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Lily likes little lemon lollies.",
+            "Lovely lilies line the lane.",
+            "Lena lets the little lamb leap.",
+            "Blue balloons float along the lake.",
+            "Little lions lounge lazily.",
+            "Lola labels lemon loaves."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Lively Lucy loves little blue lamps.",
+            "Lily lightly lifts the linen.",
+            "Lovely yellow lilies lean left.",
+            "Little lizards lounge below logs.",
+            "Laura loads lemons into little baskets.",
+            "The local library loans lovely legends."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Lola lets little lambs leap along the lawn.",
+            "Lily lays lovely lilies beside the lake.",
+            "Blue balloons bob below the library balcony.",
+            "Little black kittens climb the tall ladder.",
+            "Lucy slowly learns the lively lullaby.",
+            "The little florist fills glass bowls with yellow lilies."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Lovely lilies line the long lane by the lake.",
+            "Lola labels every little lemon loaf clearly.",
+            "Little lizards leap lightly over flat stones.",
+            "Laura slowly rolls the blue ball along the lawn.",
+            "Lively learners listen closely to the lovely melody.",
+            "Clean glass plates glitter below the bright lights."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Lily and Lola load little lemons into yellow bowls.",
+            "The local librarian labels the latest library books.",
+            "Little lambs leap along the low stone wall.",
+            "Lovely yellow lilies bloom beside the old village hall.",
+            "Laura learns the lullaby and sings it loud and clear.",
+            "A playful lizard slips below the flat wooden shelf."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Lively little learners line up along the library wall.",
+            "Lola carefully places lemon slices on the blue plate.",
+            "Lovely lilies and lilacs fill the glass bowl.",
+            "The little black lab follows Lily along the lane.",
+            "Laura rolls the light blue ball slowly across the lawn.",
+            "Little lanterns glow softly along the festival road."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Lola’s little lemon stall sells lovely lemon lollies.",
+            "Lily lightly lifts the lilac linen and lays it flat.",
+            "The local library lends long legends to lively learners.",
+            "Little lizards lounge on warm logs beside the lake.",
+            "Lovely yellow lights illuminate the long village lane.",
+            "Laura and Lily listen to the lullaby and learn every line."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Little lambs leap lightly while lively little lions look on.",
+            "Lola lays lemon loaves along the long wooden table.",
+            "Lily labels the colorful bottles before loading the delivery trolley.",
+            "The local flute player fills the hall with a lovely melody.",
+            "Blue balloons float low above the little lakeside village.",
+            "Lively learners carefully collect leaves for the school display."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Lola and Lily slowly roll the blue ball along the level lawn.",
+            "Lovely lilies line the long path leading to the old library.",
+            "Little lizards slip along the wall and settle below the shelves.",
+            "The local volunteers fill glass bowls with lemon slices and olives.",
+            "Lively children learn the lullaby before the festival begins.",
+            "Laura loads the colorful lanterns and labels each box for delivery."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Lovely yellow lilies line the lakeside lane while little lambs leap nearby.",
+            "Lola labels every lemon loaf, lays them neatly, and loads the delivery trolley.",
+            "Lively learners listen closely as the local violinist plays a lovely lullaby.",
+            "Little lizards leap over flat stones, then lounge below the old wooden ladder.",
+            "Lily and Laura collect fallen leaves and place them in clearly labeled bags.",
+            "The local library celebrates learning with lively music, colorful lights, and a long line of little book lovers."
+          ]
+        }
+      ]
+    }
+  ]
+}

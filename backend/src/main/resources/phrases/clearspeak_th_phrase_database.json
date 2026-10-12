@@ -1,0 +1,584 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Single Syllable — TH Sounds",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "thin",
+            "thick",
+            "think",
+            "thank",
+            "thumb",
+            "three"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "throw",
+            "thread",
+            "throat",
+            "thrill",
+            "thrash",
+            "thrust"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "bath",
+            "math",
+            "path",
+            "moth",
+            "tooth",
+            "teeth"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "cloth",
+            "fifth",
+            "tenth",
+            "north",
+            "south",
+            "earth"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "truth",
+            "youth",
+            "length",
+            "width",
+            "depth",
+            "growth"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "this",
+            "that",
+            "then",
+            "them",
+            "they",
+            "than"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "these",
+            "those",
+            "there",
+            "their",
+            "though",
+            "thus"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "with",
+            "breathe",
+            "bathe",
+            "smooth",
+            "soothe",
+            "clothe"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "wreath",
+            "sheath",
+            "seethe",
+            "writhe",
+            "tithe",
+            "scythe"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "the",
+            "thou",
+            "thee",
+            "thy",
+            "they’ll",
+            "that’s"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Multi-Syllable TH Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "thunder",
+            "thirty",
+            "thirsty",
+            "Thursday",
+            "thousand",
+            "thoughtless"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "author",
+            "athlete",
+            "healthy",
+            "bathroom",
+            "birthday",
+            "method"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "mother",
+            "father",
+            "brother",
+            "weather",
+            "feather",
+            "leather"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "nothing",
+            "something",
+            "anything",
+            "clothing",
+            "nothingness",
+            "toothbrush"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "thundercloud",
+            "thunderstorm",
+            "thunderous",
+            "thankful",
+            "thoughtful",
+            "thorough"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "healthy thumb",
+            "thirsty athlete",
+            "birthday theme",
+            "thunder sound",
+            "weather report",
+            "three thimbles"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "those feathers",
+            "their mother",
+            "another thing",
+            "the other path",
+            "with the author",
+            "this Thursday"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "thirty authors",
+            "a thoughtful lesson",
+            "a healthy adult",
+            "a leather jacket",
+            "a feather pillow",
+            "a thousand thanks"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "through the doorway",
+            "across the pathway",
+            "under the weather",
+            "beside the theatre",
+            "within the thicket",
+            "beyond the threshold"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "thoughtful brother",
+            "healthy mother",
+            "thirsty author",
+            "weather station",
+            "three birthdays",
+            "a thousand feathers"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Longer TH Words and Phrases",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "thermometer",
+            "thoroughly",
+            "thoughtfully",
+            "thankfulness",
+            "authoritative",
+            "mathematical"
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "a thoughtful author",
+            "a thorough athlete",
+            "a thunderous rhythm",
+            "a three-month theme",
+            "the northern pathway",
+            "a thoughtful theory"
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "think it through",
+            "thank them thoroughly",
+            "gather the feathers",
+            "measure the thickness",
+            "follow the northern path",
+            "check the weather station"
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "the theater entrance",
+            "a thoughtful discussion",
+            "a healthy lifestyle",
+            "a mathematical theorem",
+            "the weather forecast",
+            "the northern thunderstorm"
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "a thousand thoughtful ideas",
+            "the author thanks the athletes",
+            "a thorough weather report",
+            "the other theater entrance",
+            "a healthy breathing rhythm",
+            "a mathematical theory"
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "the mother and father",
+            "the weather in the north",
+            "the athlete strengthens their thumb",
+            "the author reads the third chapter",
+            "the feathers gather together",
+            "the brothers follow the pathway"
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "think before answering",
+            "thank the thoughtful teacher",
+            "breathe through the exercise",
+            "measure the width of the cloth",
+            "follow the path through the garden",
+            "gather the things for Thursday"
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "a thoughtful birthday celebration",
+            "a thorough mathematical explanation",
+            "a healthy three-month routine",
+            "a thunderstorm beyond the theatre",
+            "a leather jacket with thick stitching",
+            "a weather station near the northern path"
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "the thoughtful athlete thanks the team",
+            "the three authors discuss their theory",
+            "the brothers gather the things together",
+            "a thunderous sound shakes the theatre",
+            "the weather changes throughout the afternoon",
+            "the mother smooths the cloth with care"
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "think about the results before drawing a conclusion",
+            "thank the other volunteers for their thoughtful help",
+            "the athlete breathes slowly throughout the exercise",
+            "the weather station records the strength of the thunderstorm",
+            "the author explains the theory with three clear examples",
+            "gather the tools and measure the thickness of the material"
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Short TH Sentences",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Three thin threads hang there.",
+            "This is the third thing.",
+            "The moth rests on the cloth.",
+            "Those shoes are smooth.",
+            "The weather feels warm today.",
+            "Please thank the thoughtful teacher."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "The thirsty athlete drinks water after training.",
+            "My brother reads the weather report every morning.",
+            "Those three feathers fell beside the pathway.",
+            "The author thanked the students for their thoughtful questions.",
+            "This Thursday, the theater opens a new show.",
+            "The thick cloth feels smooth and soft."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "The thoughtful teacher explains the theory with three examples.",
+            "My mother and father walk together along the northern pathway.",
+            "The athlete strengthens their thumb with a simple exercise.",
+            "A thunderstorm moves through the valley after sunset.",
+            "Please gather the feathers and place them in the other box.",
+            "The author thanks everyone who helped with the birthday celebration."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "The three brothers walk along the path after the rain.",
+            "The weather station records the thunder throughout the night.",
+            "My mother places the thick cloth beside the other materials.",
+            "The healthy athlete breathes slowly before the next exercise.",
+            "The author shares a thoughtful theory with the theater audience.",
+            "Those three students thank their teacher after the lesson."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "The thoughtful author answers the students’ questions thoroughly.",
+            "A thunderstorm passes through the northern part of the town.",
+            "The athlete follows a healthy routine throughout the season.",
+            "Please smooth the cloth before measuring its width and thickness.",
+            "My brother and I gather the things for Thursday’s celebration.",
+            "The weather becomes warmer as the clouds move toward the south."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "The teacher asked the third group to think through the problem together.",
+            "The weather report says a thunderstorm may pass through the northern district.",
+            "The athlete takes a deep breath before moving through the exercise.",
+            "Those thoughtful volunteers gather the materials and thank the coordinator.",
+            "My father reads to my younger brother while the rain falls outside.",
+            "The author explains the mathematical theory with clear examples."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "The three students think carefully before answering the question.",
+            "This Thursday, the theater hosts a thoughtful discussion about healthy habits.",
+            "The athlete strengthens their breathing through a steady exercise routine.",
+            "My mother gathers the thick blankets and places them beside the heater.",
+            "The weather station sends another report about the approaching thunderstorm.",
+            "The author thanks the audience for their thoughtful questions and patience."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "The thoughtful teacher asks the students to explain their theory in their own words.",
+            "Those three athletes strengthen their breathing and follow the coach’s healthy routine.",
+            "A thunderstorm moves through the northern valley while the weather station records each change.",
+            "My brother and I gather the clothes, smooth the sheets, and prepare the room for our guests.",
+            "The author thanks the theater staff for helping throughout the three-day event.",
+            "Please think through the instructions before measuring the width and thickness of the cloth."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "The weather station records the strength of the thunderstorm throughout the night.",
+            "The thoughtful author thanks the three students for explaining their theory clearly.",
+            "My mother places the leather jacket and thick cloth together beside the other things.",
+            "The athlete breathes steadily and strengthens their legs through a healthy training routine.",
+            "Those volunteers gather the supplies and walk along the path to the theater.",
+            "The teacher asks the third group to think through the problem before sharing their answers."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Throughout the three-day event, the thoughtful volunteers gather supplies, thank the hosts, and help the visitors.",
+            "The weather station records the thunderstorm as it moves through the northern valley toward the coast.",
+            "The author explains the mathematical theory thoroughly, then answers the students’ thoughtful questions.",
+            "My brother and I smooth the thick cloth, measure its width, and place it beside the other materials.",
+            "The healthy athlete breathes slowly, strengthens their balance, and follows the coach’s instructions throughout the exercise.",
+            "Those three theater staff members thank every guest and help them find the correct pathway after the show."
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "TH Tongue Twisters",
+      "subLevels": [
+        {
+          "subLevel": 1,
+          "phrases": [
+            "Three thinkers thank Theo.",
+            "Thin threads thrill the tailor.",
+            "Those thirty thieves thought.",
+            "The thirsty athlete breathes.",
+            "Thick cloth covers the throne.",
+            "Thank the thoughtful three."
+          ]
+        },
+        {
+          "subLevel": 2,
+          "phrases": [
+            "Theo thinks through three themes.",
+            "Thirty thoughtful authors thank them.",
+            "The thirsty athlete throws the thimble.",
+            "Those feathers drift through the theater.",
+            "The brothers breathe through the exercise.",
+            "Thursday brings thunder to the north."
+          ]
+        },
+        {
+          "subLevel": 3,
+          "phrases": [
+            "Three thoughtful thinkers thank their teacher.",
+            "Thirty thirsty athletes throw thick towels.",
+            "The author thoroughly explains the theory.",
+            "Those three brothers gather the feathers.",
+            "Thin threads twist through the thick cloth.",
+            "The thunder rolls through the northern theater."
+          ]
+        },
+        {
+          "subLevel": 4,
+          "phrases": [
+            "Theo thanks the thoughtful teacher on Thursday.",
+            "Three thirsty athletes breathe through their training.",
+            "Thirty feathers drift through the theater doorway.",
+            "The brothers think through the third theory together.",
+            "Thick threads run through the tailor’s cloth.",
+            "Those thoughtful authors gather their things before the thunderstorm."
+          ]
+        },
+        {
+          "subLevel": 5,
+          "phrases": [
+            "Three thoughtful brothers thank their mother throughout Thursday.",
+            "The thirsty athlete thinks through the breathing exercise thoroughly.",
+            "Thin threads twist together while the tailor smooths the thick cloth.",
+            "Those three authors share a theory about the northern weather.",
+            "Thunder rolls through the valley as the weather station sends another report.",
+            "The theater hosts a thoughtful discussion about healthy habits and steady breathing."
+          ]
+        },
+        {
+          "subLevel": 6,
+          "phrases": [
+            "Theo and his three brothers thank their thoughtful teacher.",
+            "Thirty thin threads twist through the tailor’s thick cloth.",
+            "The author thinks thoroughly before sharing the theory with the audience.",
+            "Those thirsty athletes breathe steadily throughout their training.",
+            "Thunder shakes the theater while the guests move through the doorway.",
+            "Thursday’s weather brings thick clouds and strong northern winds."
+          ]
+        },
+        {
+          "subLevel": 7,
+          "phrases": [
+            "Three thoughtful students think through the theory and thank their teacher.",
+            "The thirsty athlete breathes steadily while strengthening their balance.",
+            "Thin threads and thick cloth are gathered together by the tailor.",
+            "Those three brothers walk along the pathway throughout the afternoon.",
+            "The weather station tracks the thunderstorm as it travels through the valley.",
+            "The author thanks the audience for their thoughtful questions after the discussion."
+          ]
+        },
+        {
+          "subLevel": 8,
+          "phrases": [
+            "Throughout Thursday, the thoughtful theater team thanks the guests and guides them through the doorway.",
+            "Three athletes strengthen their breathing by thinking through each movement carefully.",
+            "Thin threads twist through thick cloth while the tailor measures the width.",
+            "Those authors thoroughly discuss the theory before sharing their thoughts with the students.",
+            "Thunder rolls through the northern valley as the weather station tracks the storm.",
+            "My brother and mother gather the things together and place them beside the other materials."
+          ]
+        },
+        {
+          "subLevel": 9,
+          "phrases": [
+            "Three thoughtful authors thank their teacher, then think through the theory together.",
+            "Thirty thirsty athletes strengthen their breathing throughout the Thursday training session.",
+            "Thin threads twist through thick cloth as the tailor measures each section carefully.",
+            "Those three brothers gather the feathers and smooth the sheets before the guests arrive.",
+            "The weather station reports thunder throughout the northern valley and sends another warning.",
+            "The theater hosts a thoughtful discussion about healthy habits, steady breathing, and thorough preparation."
+          ]
+        },
+        {
+          "subLevel": 10,
+          "phrases": [
+            "Three thoughtful thinkers thoroughly discuss the theory, thank their teacher, and share their conclusions.",
+            "Throughout the thunderstorm, the weather station tracks the northern winds and sends updates to the town.",
+            "Thirty thirsty athletes breathe steadily, strengthen their balance, and think through the coach’s instructions.",
+            "Thin threads twist together through thick cloth while the tailor measures the width and smooths the edges.",
+            "Those three brothers gather the materials, thank the volunteers, and walk together along the pathway to the theater.",
+            "The author thanks the audience for their thoughtful questions, then explains the mathematical theory through three clear examples."
+          ]
+        }
+      ]
+    }
+  ]
+}
