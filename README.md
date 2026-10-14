@@ -4,7 +4,7 @@
 
 The current implementation combines an Android client, a Spring Boot backend, a Python/FastAPI speech-processing service, a pretrained Wav2Vec2 phoneme-recognition model, custom CTC forced alignment, practical GOP-style phoneme confidence scoring, calibration logic, and Gemini-generated natural-language feedback.
 
-> **Current project status:** The end-to-end pipeline is working on a physical Android phone. The current phrase-database implementation is populated for the `/sh/` phoneme, while the backend API and progression engine are designed so additional phoneme databases can be added using the same structure.
+> **Current project status:** ClearSpeak has an Android client, a Spring Boot backend, a FastAPI speech-processing service, six JSON phrase datasets (`/sh/`, `/r/`, `/l/`, `/th/`, `/s/`, and `/z/`), login handling, and PostgreSQL-backed user/phoneme progress. The phrase JSON files are loaded into memory by `PhraseDatabaseService` at Spring Boot startup. The extended datasets and pronunciation-score calibration still need broader audio-based validation.
 
 ---
 
@@ -44,39 +44,42 @@ The feedback layer then generated targeted advice explaining that the middle vow
 
 ```mermaid
 flowchart TD
-    A[Android App - Java] -->|Multipart audio + expected phrase| B[Spring Boot Backend]
+    A[Android App - Java] -->|Login request| B[Spring Boot Backend]
+    B <--> P[(PostgreSQL)]
+    A -->|Audio + expected phrase| B
     B -->|/assess| C[FastAPI Speech Service]
     C --> D[Wav2Vec2 Phoneme Model]
     D --> E[CTC Decoding]
     E --> F[Expected-phoneme Forced Alignment]
     F --> G[GOP-style Phoneme Confidence]
     G --> H[Score Calibration / Aggregation]
-    H --> I[Gemini Feedback]
+    H --> I[Gemini Feedback when score < 85]
     I --> C
     C --> B
-    B -->|ScoreResponse| A
+    B -->|Score + feedback| A
 
-    A -->|phoneme + level + step + optional score| J[Spring Boot Phrase API]
-    J --> K[ProgressionService]
-    K --> L[Phrase Database]
-    L --> J
-    J -->|next phrase + level + step| A
+    A -->|phoneme + level + sublevel + score| J[Phrase API / ProgressionService]
+    J --> K[In-memory JSON phrase databases]
+    K --> J
+    J -->|Next phrase + updated step| A
+    B <--> M[ProgressController]
+    M <--> P
 ```
 
 ### High-level flow
 
-1. The learner chooses a target phoneme in the Android application.
-2. Spring Boot provides a phrase from the appropriate level/sublevel.
-3. The Android app displays the phrase and records the learner's speech as a WAV file.
-4. Spring Boot forwards the multipart audio and expected phrase to FastAPI.
-5. FastAPI loads the audio and runs the pretrained Wav2Vec2 phoneme model.
-6. The raw CTC output is converted into a phoneme sequence and frame-level logits.
-7. Custom CTC Viterbi-style forced alignment aligns the **expected** phonemes with the model's acoustic output.
-8. A practical GOP-style confidence is computed for each aligned phoneme.
-9. Calibrated phoneme scores are aggregated into the pronunciation score.
-10. Pronunciation errors are used to generate more specific feedback through Gemini when appropriate.
-11. The result is returned to Android.
-12. The score is passed to the Spring Boot progression engine, which decides the next learning step and selects a new phrase.
+1. The learner opens ClearSpeak and logs in.
+2. The app retrieves the user's saved progress for the selected phoneme.
+3. The learner selects one of the six supported phonemes: `/sh/`, `/r/`, `/l/`, `/th/`, `/s/`, or `/z/`.
+4. Spring Boot selects a phrase from the corresponding in-memory JSON database and current level/sublevel.
+5. The Android app displays the phrase and records the learner's speech as a WAV file.
+6. Spring Boot forwards the audio and expected phrase to FastAPI.
+7. FastAPI runs the pretrained Wav2Vec2 phoneme model and obtains CTC outputs.
+8. Custom CTC forced alignment aligns the expected phonemes with the model's acoustic output.
+9. GOP-style phoneme confidence, error detection, and calibration are used to calculate a pronunciation score.
+10. Scores of 85 or above use a fixed positive response; lower scores can request targeted feedback from Gemini.
+11. The assessment result returns to Android.
+12. The result is sent to the progress API, which stores the user's progress by phoneme in PostgreSQL and supports continuing practice later.
 
 ---
 
@@ -86,13 +89,13 @@ flowchart TD
 
 The Android application is responsible for the user-facing workflow:
 
-- displaying the target phoneme and phrase
-- text-to-speech reference pronunciation
-- recording 16 kHz mono PCM16 audio
-- uploading the recording
-- displaying the returned score and feedback
-- holding the current in-memory level/sublevel during a no-login session
-- requesting the next phrase from the backend
+- presenting the login and phoneme-selection flow
+- displaying the selected target phoneme and phrase
+- providing text-to-speech reference pronunciation
+- recording 16 kHz mono PCM16 WAV audio
+- uploading the recording and displaying the returned score and feedback
+- loading saved progress for the logged-in user and selected phoneme
+- requesting the next phrase and sending assessment scores to the backend progress API
 
 The client uses Retrofit for HTTP communication and Android ViewModels for separating network state from the activity UI.
 
@@ -115,13 +118,14 @@ The Spring Boot service sits between Android and the Python speech-processing se
 
 Its responsibilities include:
 
-- accepting multipart assessment requests
-- forwarding audio to FastAPI
+- accepting assessment requests and forwarding audio to FastAPI
 - exposing the phrase-selection API
-- loading and validating phrase databases from resources
+- loading all six JSON phrase databases into memory at startup
+- validating that every phrase database contains 5 levels, 10 sub-levels per level, and 6 phrases per sub-level
 - implementing adaptive level/sublevel progression
-- choosing a non-repeating phrase from the current six-phrase pool
 - normalizing phoneme identifiers such as `sh` and `/sh/`
+- handling login requests and retrieving user records
+- loading and updating persistent per-user, per-phoneme progress in PostgreSQL
 
 ### Assessment endpoint
 
@@ -158,13 +162,35 @@ Example:
 
 If the score is supplied, Spring Boot calculates the new target level/sublevel before selecting the next phrase.
 
+### Authentication and persistent progress
+
+The Android app includes a login flow backed by `AuthController`. User records are accessed through `UserRepository`, while `ProgressController` and the user-phoneme progress model handle saved progress.
+
+The main persistence pieces are:
+
+- `User` — user account record
+- `UserRepository` — access to user records
+- `UserPhonemeProgress` and `UserPhonemeProgressId` — progress associated with a particular user and phoneme
+- `UserPhonemeProgressRepository` — read/write access to saved progress
+- `ProgressController` — API used by the app to retrieve and update practice progress
+
+PostgreSQL stores user and progress data. Phrase content is separate: it is loaded from JSON into memory at Spring Boot startup.
+
+A progress lookup for user ID `2`, for example, is available at:
+
+```http
+GET /progress/2
+```
+
+Use an existing user ID from the local database when testing. Do not assume IDs are the same across development databases.
+
 ---
 
 # 📈 Adaptive Difficulty / Progression Engine
 
-The current learning system uses **5 levels × 10 sublevels × 6 candidate phrases**.
+Each supported phoneme uses **5 levels × 10 sublevels × 6 candidate phrases**. With six phrase files, the structure holds 300 phrase prompts per phoneme, or 1,800 across the full set when every file passes validation.
 
-The phrase content is currently implemented for the `/sh/` phoneme.
+Supported phonemes: `/sh/`, `/r/`, `/l/`, `/th/`, `/s/`, and `/z/`. Each user's current progress is tracked independently for each phoneme.
 
 ## Level structure
 
@@ -197,24 +223,34 @@ Boundary behavior:
 Level 1 / Step 1 + score < 50
     → remains Level 1 / Step 1
 
+Level 1–4 / Step 10 + score >= 80
+    → advances to the next level / Step 1
+
 Level 5 / Step 10 + score >= 80
-    → remains Level 5 / Step 10
+    → remains at the maximum level / Step 10
 ```
 
-The progression rules are deliberately located in `ProgressionService` rather than inside the Android activity. This keeps learning logic centralized and makes a future login/persistence implementation much easier.
+The progression rules are centralized in the backend rather than embedded in the Android activity. User progress is also persisted through the progress API, so the app can retrieve a saved level/sublevel for a user and phoneme.
 
 ---
 
 # 🗂️ Phrase Database Design
 
-The phrase database is stored in Spring Boot resources as JSON.
+Phrase content is stored in JSON resources and loaded into memory by `PhraseDatabaseService` when Spring Boot starts. The app does not need a database query for every phrase request.
 
-Current file:
+The six files live in `backend/src/main/resources/phrases/`:
 
 ```text
-backend/src/main/resources/phrases/
-└── clearspeak_sh_phrase_database.json
+phrases/
+├── clearspeak_sh_phrase_database.json
+├── clearspeak_r_phrase_database.json
+├── clearspeak_l_phrase_database.json
+├── clearspeak_th_phrase_database.json
+├── clearspeak_s_phrase_database.json
+└── clearspeak_z_phrase_database.json
 ```
+
+Each file is structured for 5 levels, 10 sub-levels per level, and 6 phrases per sub-level. The service validates this structure at startup and fails fast if a configured file is missing or malformed.
 
 The model is structured as:
 
@@ -357,16 +393,9 @@ This architecture leaves room for later improvements such as:
 
 # 🤖 Gemini Feedback Layer
 
-The scoring engine produces structured errors such as:
+The scoring engine produces structured errors such as insertions and substitutions and records the expected/actual phonemes. Gemini can turn these results into learner-friendly feedback when additional guidance is useful.
 
-```text
-insertion
-substitution
-```
-
-and records the expected/actual phonemes.
-
-Gemini can then turn these structured results into learner-friendly feedback.
+To limit unnecessary model calls, the current assessment path bypasses Gemini when the overall score is **85 or higher** and returns a fixed positive message. For scores below 85, it attempts Gemini feedback. If the feedback call fails or returns no usable text, the service falls back to a generic practice message. The pronunciation score and progression flow should not depend on Gemini succeeding.
 
 Example from the current running pipeline:
 
@@ -464,9 +493,7 @@ Port: 8080
 Address: 0.0.0.0
 ```
 
-The phrase database is loaded during startup and structurally validated.
-
-A successful startup should indicate that the phrase database(s) were loaded.
+The six configured JSON phrase databases are loaded during startup and structurally validated. The startup log should list all supported keys: `sh`, `r`, `l`, `th`, `s`, and `z`. If a key is missing, check the `PHRASE_FILES` map and the matching filename under `src/main/resources/phrases/`.
 
 ---
 
@@ -498,9 +525,26 @@ You should see a listener such as:
 
 ### Test the phrase API locally
 
+Test one phrase from each JSON database:
+
 ```text
 http://localhost:8080/phrases/next?phoneme=sh&level=1&subLevel=1
+http://localhost:8080/phrases/next?phoneme=r&level=1&subLevel=1
+http://localhost:8080/phrases/next?phoneme=l&level=1&subLevel=1
+http://localhost:8080/phrases/next?phoneme=th&level=1&subLevel=1
+http://localhost:8080/phrases/next?phoneme=s&level=1&subLevel=1
+http://localhost:8080/phrases/next?phoneme=z&level=1&subLevel=1
 ```
+
+### Check saved progress
+
+For a known user ID, the progress GET endpoint can be checked with an address such as:
+
+```text
+http://localhost:8080/progress/2
+```
+
+Use an actual user ID from your local database when testing.
 
 ### Test progression
 
@@ -538,6 +582,16 @@ ClearSpeak/
 │
 ├── backend/
 │   ├── src/main/java/com/example/clearspeak/
+│   │   ├── AuthController.java
+│   │   ├── LoginRequest.java
+│   │   ├── LoginResponse.java
+│   │   ├── ProgressController.java
+│   │   ├── ProgressResponse.java
+│   │   ├── User.java
+│   │   ├── UserRepository.java
+│   │   ├── UserPhonemeProgress.java
+│   │   ├── UserPhonemeProgressId.java
+│   │   ├── UserPhonemeProgressRepository.java
 │   │   ├── PhraseController.java
 │   │   ├── PhraseDatabase.java
 │   │   ├── PhraseDatabaseService.java
@@ -547,7 +601,12 @@ ClearSpeak/
 │   └── src/main/resources/
 │       ├── application.properties
 │       └── phrases/
-│           └── clearspeak_sh_phrase_database.json
+│           ├── clearspeak_sh_phrase_database.json
+│           ├── clearspeak_r_phrase_database.json
+│           ├── clearspeak_l_phrase_database.json
+│           ├── clearspeak_th_phrase_database.json
+│           ├── clearspeak_s_phrase_database.json
+│           └── clearspeak_z_phrase_database.json
 │
 ├── app.py
 ├── transcribe_test.py
@@ -593,60 +652,51 @@ Use environment variables or a local configuration file for service credentials.
 
 # ⚠️ Current Limitations
 
-### 1. Only SH phrase data is currently populated
+### 1. Extended phrase datasets need broader smoke testing
 
-The phrase database architecture is generic, but the current JSON content is for the `/sh/` target.
+All six phoneme JSON files are registered in the Spring Boot loader and are expected to follow the same 5 × 10 × 6 structure. Confirm that startup logs list every phoneme and exercise every dataset through the phrase API and physical Android app. Structural validation does not guarantee linguistic quality or scoring accuracy.
 
-Additional phonemes require their own validated phrase databases.
+### 2. Scoring is not clinically validated
 
-### 2. No login or persistence yet
+The current score is a project/research-style engineering measure, not a clinical diagnostic measurement. Human-rated reference audio and broader speaker testing are still needed.
 
-Progression is currently maintained for the current application session.
+### 3. Calibration is an early implementation
 
-A future version can move the state to PostgreSQL using a user/phoneme progress model.
-
-### 3. Scoring is not clinically validated
-
-The current score should be treated as a project/research-style engineering score rather than a medical or clinical diagnostic measurement.
+The V1 calibration is a practical prototype. Add good and mispronounced audio examples for each target phoneme, including different speakers and recording conditions, before revising thresholds or presenting the score as validated.
 
 ### 4. Local-network development
 
-The present development environment expects the Android device to reach the laptop-hosted backend. Production deployment would replace this with a stable hosted API.
+The current development setup expects the Android device to reach a laptop-hosted backend. Production deployment would replace this with a stable hosted API and secure transport.
 
-### 5. Calibration is an early implementation
+### 5. Deployment/security hardening remains
 
-The current baseline calibration/scorer is intentionally practical and can be improved with larger speaker datasets and formal validation.
+Keep credentials out of version control and review authentication, password handling, HTTPS, logging, and production database configuration before deployment.
 
 ---
 
 # 🚀 Future Roadmap
 
-## Phase 1 — Current
+## Phase 1 — Current implementation
 
-- [x] Android pronunciation practice screen
-- [x] Text-to-speech reference pronunciation
-- [x] 16 kHz mono WAV recording
-- [x] Spring Boot backend
-- [x] FastAPI speech-processing service
-- [x] Wav2Vec2 phoneme recognition
-- [x] CTC forced alignment
-- [x] Phoneme-level error detection
-- [x] Practical GOP-style scoring
+- [x] Android pronunciation practice screen and text-to-speech reference pronunciation
+- [x] 16 kHz mono PCM16 WAV recording
+- [x] Spring Boot backend and FastAPI speech-processing service
+- [x] Wav2Vec2 phoneme recognition and CTC forced alignment
+- [x] Phoneme-level error detection and practical GOP-style scoring
 - [x] Score calibration prototype
-- [x] Gemini feedback generation
-- [x] SH phrase database
-- [x] Adaptive progression engine
+- [x] Gemini feedback path with a score-based call guard and fallback message
+- [x] Six JSON phrase databases (`sh`, `r`, `l`, `th`, `s`, `z`)
+- [x] JSON loading and structural validation at startup
+- [x] Adaptive level/sublevel progression
+- [x] Login flow and PostgreSQL-backed user/phoneme progress
 
 ## Phase 2 — Productization
 
-- [ ] Login / registration
-- [ ] JWT authentication
-- [ ] PostgreSQL user database
-- [ ] Persistent phoneme-level progress
-- [ ] Assessment history
-- [ ] Progress charts
-- [ ] Multiple phoneme databases
-- [ ] Better phrase authoring/validation tools
+- [ ] Assessment history and progress charts
+- [ ] Better phrase authoring and validation tools
+- [ ] Stronger automated tests for API, progression, and database behavior
+- [ ] Authentication and configuration security review
+- [ ] Improve user-facing loading/error states
 
 ## Phase 3 — Research / Validation
 
@@ -672,25 +722,25 @@ The current baseline calibration/scorer is intentionally practical and can be im
 
 For a project demonstration, the cleanest story is:
 
-### 1. Show the practice screen
+### 1. Log in and choose a phoneme
 
-Select `/sh/` and present the displayed phrase.
+Sign in using the app's login screen, then select one of the six supported phonemes.
 
-### 2. Use “Hear It”
+### 2. Show the saved level and phrase
 
-Let the application provide the reference pronunciation.
+Show the current level/sublevel and the phrase loaded from the selected phoneme's JSON database.
 
-### 3. Record the learner
+### 3. Use “Hear It” and record
 
-Speak the target phrase naturally.
+Play the reference pronunciation, then record the learner speaking the phrase.
 
-### 4. Show the result
+### 4. Show the assessment result
 
-The system returns a numeric score and feedback.
+Display the numeric score, detected phoneme errors, and feedback. For scores below 85, show the Gemini feedback path; higher scores use the fixed positive message.
 
 ### 5. Explain the phoneme error
 
-Show that the system can distinguish a correct sequence from an error such as:
+Use a sample such as:
 
 ```text
 Expected: ʃ eɪ p
@@ -699,17 +749,17 @@ Actual:   ʃ iː p
 
 ### 6. Demonstrate adaptation
 
-Explain that the score is sent to the progression service:
+Explain the progression rules implemented in the backend:
 
 ```text
-80+  → advance
+80+   → advance
 50–79 → stay
-<50  → move back
+<50   → move back
 ```
 
-### 7. Show the next phrase
+### 7. Show persistent progress
 
-A new phrase is selected from the current level/sublevel pool while avoiding immediate repetition when possible.
+Open the progress screen or check the progress API to show the saved level/sublevel for that user and phoneme.
 
 ---
 
@@ -763,4 +813,4 @@ Add the project's chosen license here before distributing the repository publicl
 
 ## 🙌 Project Status
 
-ClearSpeak is under active development. The current build demonstrates the complete local workflow from Android recording through Spring Boot, FastAPI, Wav2Vec2-based phoneme analysis, scoring, feedback generation, and adaptive phrase selection.
+ClearSpeak is under active development. The current implementation brings together Android recording and login, Spring Boot APIs, PostgreSQL-backed user/phoneme progress, six startup-loaded JSON phrase databases, FastAPI, Wav2Vec2-based phoneme analysis, score calibration, Gemini-assisted feedback, and adaptive phrase progression. The expanded phrase datasets and scoring calibration remain candidates for broader audio-based evaluation.
